@@ -1,0 +1,14 @@
+{
+  "name": "desktop",
+  "packageManager": "yarn@1.22.22",
+  "main": "./src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^33.2.0",
+    "sqlite3": "^5.1.7"
+  },
+  "license": "MIT"
+}
